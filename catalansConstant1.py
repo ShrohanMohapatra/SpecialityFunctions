@@ -25,7 +25,5 @@ while True:
     A.append(term)
     G1 = G
     G = G + term
-    print(G)
     if abs(G-G1)/G < err: break
-print(A,len(A),G)
 print('Calculated value of Catalan%s constant',G/len(A))
