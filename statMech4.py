@@ -9,7 +9,6 @@ Created on Wed Jun 23 19:24:03 2021
 from random import random
 from math import pi, sin, exp, cos
 from matplotlib import pyplot
-from numpy import linspace
 def integrand(g):
     sum1 = 0
     n = 0
